@@ -15,6 +15,9 @@ client.on('message', message => {
     if (message.content.toLowerCase() === 'i love seong') {
         message.channel.sendMessage("You're my favorite~");
         }
+    if (message.content.toLowerCase() === 'seong is a weaboo') {
+        message.channel.sendMessage("kawaiiiii 🤤");
+        }
 });
 
 // THIS  MUST  BE  THIS  WAY
